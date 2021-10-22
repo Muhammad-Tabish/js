@@ -1,10 +1,10 @@
-var a = 0;
+/*var a = 0;
 
 while (a < 100) {
-  a += 1;
+  a++;
   console.log(a);
 }
-
+*/
 
 
 function grreting () {
@@ -13,3 +13,8 @@ document.getElementById("fam").innerHTML = yes;
 
 }
 
+
+for (let a = 0 ; a <= 100; a++)
+{
+  console.log(a)
+}
